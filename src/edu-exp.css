@@ -1,0 +1,69 @@
+
+/* Section Styling */
+.resume-section {
+    margin-left: 20%;
+    padding: 50px 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Section Header */
+  .section-label {
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* Main Container */
+  .resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Education and Experience Columns */
+  .education,
+  .experience {
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Individual Cards */
+  .resume-card {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+  }
+  
+  .resume-card:last-child {
+    border-bottom: none;
+  }
+  
+  .resume-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .resume-institution {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .resume-years {
+    font-size: 14px;
+    color: orange;
+    font-weight: bold;
+  }
+  
