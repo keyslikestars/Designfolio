@@ -17,13 +17,13 @@ class Sidebar extends Component{
                 <nav>
                     <ul id='Navbar' className= {this.state.clicked ? "#Navbar active" : "#Navbar"}>
                         <li><a href='#'><img src={logo} className='logoimg'/></a></li>
-                        <li className="active">Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Resume</li>
-                        <li>Recent Work</li>
-                        <li>Testimonial</li>
-                        <li>Blog</li>
+                        <li className="active"><a href="">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Recent Work</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </nav>
                 <div className="social-icons">
