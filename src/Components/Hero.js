@@ -17,9 +17,11 @@ const Hero = () => {
                             Hello I’m <span className="highlight">Arun</span><br />
                             A Freelance Web Developer
                         </h1>
-                        <p className="description">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-                        </p>
+                        <div className='description'>
+                            <p className="sub-description">
+                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                            </p>
+                        </div>
                         <button className="chatbtn">Let’s Chat ➔</button>
                     </div>
                 </div>

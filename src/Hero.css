@@ -1,85 +1,109 @@
 body{
     background: #fff8f3;
 }
-@media(max-width: 2000px){
-    .img-contentsection{
-        .subtext-content{
-            h1{
-                font-size: 60px;
-            }
-        }
-    }
-
-}
 
 
-@media(max-width: 1280px){
+@media (max-width: 1280px){
     .hero-section{
-
-        .menulogo{
-            display: flex;
-        }
         .img-contentsection{
             display: flex;
-            flex-direction: column;  
-            justify-content: center;
-            align-items: center;  
+            margin-left: 0% !important; 
             .text-content{
-                flex-basis: 100%;
                 .subtext-content{
-                    margin: 0 20%;
+                    width: 100%;
+                    margin: 5% auto;
                     h1{
-                        font-size: 40px;
+                        font-size: 40px ;
                     }
                 }    
             }    
         } 
         .hero-image{
             flex-basis: 100%;
-            img{
-                max-width: 80%;
-                margin: auto;
-                padding: 50px 0px;
-            }
+            display: flex;
+            width: 100%;
+            justify-content: center;
         }
+    }
+    .description{
+        padding: auto;
     }
     .chatbtn{
         margin-bottom: 5%;
         padding: 5px 10px;
+        width: 150px;
     }
 
 }
+@media(max-width:978px){
+    .img-contentsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-content{
+        text-align: center;
+    }
+    .subtext-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image{
+        padding-left: 20%;
+    }
+    .description{
+        padding-right: 0% !important;
+        .sub-description{
+            padding: 0 20%; 
+           }
+    }
+    .chatbtn{
+        margin: 0 auto;
+    }
+}
 @media(max-width: 768px){
-    .hero-section{
-        .hero-image{
-            width: 80%;
-        }
+    .subtext-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     h1{
         font-size: 30px !important;
     }
     .description{
         font-size: 10px !important;
-        width: 300px !important;
+    }
+    .chatbtn{
     }
     
+}
+@media(max-width: 528px){
+    h1{
+        font-size:20px !important;
+    }
 }
 
 
 
 .hero-section {
+    display: flex;
     .img-contentsection{
-        display: flex;
+        margin-left: 20%;
+        display: flex ;
         .text-content {
             display: flex;
             align-items: center;
+            h1{
+                font-size: 50px;
+            }
         }
     }
 }
 
 .hero-image{
-    max-width: 100%;
-    margin-left: 20%;
+    margin-top: 50PX;
+    img{
+        max-width: 80%;
+    }
 }
 
 
@@ -92,10 +116,11 @@ body{
 
 
 .description {
+    display: flex;
     margin: 20px 0;
     color: #555;
     font-size: 16px;
-    width: 350px;
+    padding-right: 40%;
 }
 .highlight{
     color: orange;
