@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a278886e.css",
-    "main.js": "/static/js/main.a7ee523b.js",
-    "static/js/453.4eb71438.chunk.js": "/static/js/453.4eb71438.chunk.js",
-    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/homeTwoBannerImg.png": "/static/media/homeTwoBannerImg.0e4bc6f53b6b6548890e.png",
-    "static/media/aboutTwo.png": "/static/media/aboutTwo.9dd9ffe364f31f10a958.png",
-    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
-    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "index.html": "/index.html",
-    "main.a278886e.css.map": "/static/css/main.a278886e.css.map",
-    "main.a7ee523b.js.map": "/static/js/main.a7ee523b.js.map",
-    "453.4eb71438.chunk.js.map": "/static/js/453.4eb71438.chunk.js.map"
+    "main.css": "/Designfolio/static/css/main.5a7b16a8.css",
+    "main.js": "/Designfolio/static/js/main.5ee36818.js",
+    "static/js/453.4eb71438.chunk.js": "/Designfolio/static/js/453.4eb71438.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Designfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/homeTwoBannerImg.png": "/Designfolio/static/media/homeTwoBannerImg.0e4bc6f53b6b6548890e.png",
+    "static/media/aboutTwo.png": "/Designfolio/static/media/aboutTwo.9dd9ffe364f31f10a958.png",
+    "static/media/fa-brands-400.ttf": "/Designfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/Designfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/Designfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/Designfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/Designfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Designfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Designfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/Designfolio/index.html",
+    "main.5a7b16a8.css.map": "/Designfolio/static/css/main.5a7b16a8.css.map",
+    "main.5ee36818.js.map": "/Designfolio/static/js/main.5ee36818.js.map",
+    "453.4eb71438.chunk.js.map": "/Designfolio/static/js/453.4eb71438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a278886e.css",
-    "static/js/main.a7ee523b.js"
+    "static/css/main.5a7b16a8.css",
+    "static/js/main.5ee36818.js"
   ]
 }
