@@ -55,7 +55,6 @@
         padding-right: 0% !important;
         .sub-description{
             font-size: 12px !important;
-            padding: 0 20%; 
            }
     }
     .chatbtn{
@@ -68,9 +67,6 @@
         flex-direction: column;
         align-items: center;
     }
-    h1{
-        font-size: 30px !important;
-    }
     .description{
         .sub-description{
         font-size: 10px !important;
@@ -81,18 +77,11 @@
     }
     .hero-image{
         img{
-            width: 80% !important;
-            padding:0 10%;
+            width: 100% !important;
         }
     }
     .welcome-text{
         font-size: 8px !important;
-    }
-}
-@media(max-width: 528px){
-    
-    h1{
-        font-size:20px !important;
     }
 }
 @media(max-width:448px){
@@ -108,22 +97,9 @@
         font-size: 6px !important;
     }
     h1{
-        font-size: 14px !important;
+        font-size: 20px !important;
     }
 
-    .img-contentsection{
-        padding-left: 15%;
-    }
-}
-@media(max-width:320px){
-    .hero-section{
-        padding-top: 10%;
-    }
-    /* .hero-image{
-        img{
-            width: 100% !important;
-        }
-    } */
 }
 
 

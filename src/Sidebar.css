@@ -29,7 +29,7 @@
         .logoimg{
             position: fixed;
             top: 10px;
-            left:78px;
+            left:50px;
         }
     }
     #Navbar.active{
@@ -37,14 +37,16 @@
     }
     @media (max-width:768px){
         .logoimg{
-            width: 15%;
-            padding-top: 10px !important;
+            width: 18%;
+            padding-top: 2px !important;
         }
     }
     @media (max-width:320px){
-        .logoimg{
-            width: 15%;
-            padding-top: 10px !important;
+        .menulogo{
+            #bar{
+                font-size: 13px !important;
+
+            }
         }
     }
 
