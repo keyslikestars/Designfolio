@@ -35,6 +35,18 @@
     #Navbar.active{
         left: 0px;
     }
+    @media (max-width:768px){
+        .logoimg{
+            width: 15%;
+            padding-top: 10px !important;
+        }
+    }
+    @media (max-width:320px){
+        .logoimg{
+            width: 15%;
+            padding-top: 10px !important;
+        }
+    }
 
 }
 body{

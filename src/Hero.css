@@ -96,6 +96,9 @@
     }
 }
 @media(max-width:448px){
+    .hero-section{
+        padding-top: 5%;
+    }
     .description{
     .sub-description{
         font-size: 6px !important;
@@ -112,15 +115,15 @@
         padding-left: 15%;
     }
 }
-@media(max-width:298px){
+@media(max-width:320px){
     .hero-section{
-        padding-left: 25%;
+        padding-top: 10%;
     }
-}
-@media(max-width:298px){
-    .img-contentsection{
-        padding: 25%;
-    }
+    /* .hero-image{
+        img{
+            width: 100% !important;
+        }
+    } */
 }
 
 

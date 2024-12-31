@@ -1,78 +1,63 @@
-/* General Section Styling */
+/* Services Section Styles */
 .services-section {
-    padding: 50px 80px;
-    text-align: center;
-    background-color: #fff;
-    color: #333;
-    font-family: Arial, sans-serif;
-    margin-left: 20%;
-  }
-  
-  /* Section Header Styling */
-  .section-label {
-    color: orange;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    display: inline-block;
-    position: relative;
-    &::before{
-        content: url(./assets/orangeDot.png);
-        position: absolute;
-        top: 0;
-        left: -20px;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-left: 20%;
+}
 
-    }
+.services-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  width: 90%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 80px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #ff7700;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media(max-width:1280px){
+  .services-section{
+    margin-left: 0 !important;
   }
-  
-  .section-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
   }
-  
-  /* Container for Cards */
-  .services-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  /* Individual Service Card */
-  .service-card {
-    background-color: #fff8f3;
-    border: 1px solid #f3eae3;
-    border-radius: 5px;
-    padding: 45px;
-    width: 22%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Icon Styling */
-  .service-icon {
-    font-size: 40px;
-    color: orange;
-    margin-bottom: 10px;
-  }
-  
-  /* Title and Description */
-  .service-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .service-description {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.5;
-  }
-  
+}
