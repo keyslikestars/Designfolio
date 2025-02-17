@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Designfolio/static/css/main.16f653e5.css",
+    "main.css": "/Designfolio/static/css/main.564e127a.css",
     "main.js": "/Designfolio/static/js/main.166cd313.js",
     "static/js/453.4eb71438.chunk.js": "/Designfolio/static/js/453.4eb71438.chunk.js",
     "static/media/fa-solid-900.ttf": "/Designfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -14,12 +14,12 @@
     "static/media/fa-v4compatibility.ttf": "/Designfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/Designfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Designfolio/index.html",
-    "main.16f653e5.css.map": "/Designfolio/static/css/main.16f653e5.css.map",
+    "main.564e127a.css.map": "/Designfolio/static/css/main.564e127a.css.map",
     "main.166cd313.js.map": "/Designfolio/static/js/main.166cd313.js.map",
     "453.4eb71438.chunk.js.map": "/Designfolio/static/js/453.4eb71438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16f653e5.css",
+    "static/css/main.564e127a.css",
     "static/js/main.166cd313.js"
   ]
 }
